@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HJ KOOK's Portfolio - Retro Style</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">d:\HJ_KOOK\Portfolio&gt;</span>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">HOME</a></li>
+                <li><a href="#projects" class="nav-link">PROJECTS</a></li>
+                <li><a href="#contact" class="nav-link">CONTACT</a></li>
+                <li><a href="#" class="nav-link" onclick="shutdown()">EXIT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="terminal-window">
+                    <div class="terminal-header">
+                        <div class="terminal-buttons">
+                            <span class="btn close"></span>
+                            <span class="btn minimize"></span>
+                            <span class="btn maximize"></span>
+                        </div>
+                        <span class="terminal-title">MS-DOS Prompt - HJ KOOK's Portfolio</span>
+                    </div>
+                    <div class="terminal-body">
+                        <div class="terminal-text">
+                            <p>Microsoft(R) MS-DOS(R) Version 6.22</p>
+                            <p>(C)Copyright Microsoft Corp 1981-1994.</p>
+                            <p class="cursor-blink">d:\HJ_KOOK\Portfolio&gt; <span class="typing-text"></span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-info">
+                    <h1>HJ KOOK's Digital Portfolio</h1>
+                    <p class="subtitle">Retro Developer & Creative Coder</p>
+                    <div class="skills">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">React</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">PROJECTS</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="card-header">
+                        <div class="card-buttons">
+                            <span class="btn close"></span>
+                            <span class="btn minimize"></span>
+                            <span class="btn maximize"></span>
+                        </div>
+                        <span class="card-title">E-Commerce Platform</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="project-image">
+                            <div class="placeholder-image">🛒</div>
+                        </div>
+                        <h3>Retro Shop</h3>
+                        <p>Full-stack e-commerce platform with vintage design. Built with React, Node.js, and MongoDB.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-link">VIEW PROJECT</a>
+                            <a href="#" class="btn-link">GITHUB</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-header">
+                        <div class="card-buttons">
+                            <span class="btn close"></span>
+                            <span class="btn minimize"></span>
+                            <span class="btn maximize"></span>
+                        </div>
+                        <span class="card-title">Task Manager</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="project-image">
+                            <div class="placeholder-image">📋</div>
+                        </div>
+                        <h3>DOS Task Manager</h3>
+                        <p>Command-line inspired task management application with retro UI. Features include drag-and-drop and keyboard shortcuts.</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>CSS3</span>
+                            <span>LocalStorage</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-link">VIEW PROJECT</a>
+                            <a href="#" class="btn-link">GITHUB</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-header">
+                        <div class="card-buttons">
+                            <span class="btn close"></span>
+                            <span class="btn minimize"></span>
+                            <span class="btn maximize"></span>
+                        </div>
+                        <span class="card-title">Weather App</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="project-image">
+                            <div class="placeholder-image">🌤️</div>
+                        </div>
+                        <h3>Retro Weather</h3>
+                        <p>Weather application with MS-DOS style interface. Displays current weather and forecasts with ASCII art.</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>API</span>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-link">VIEW PROJECT</a>
+                            <a href="#" class="btn-link">GITHUB</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">CONTACT</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-window">
+                        <div class="contact-header">
+                            <div class="contact-buttons">
+                                <span class="btn close"></span>
+                                <span class="btn minimize"></span>
+                                <span class="btn maximize"></span>
+                            </div>
+                            <span class="contact-title">Contact Information</span>
+                        </div>
+                        <div class="contact-body">
+                            <div class="contact-item">
+                                <span class="label">EMAIL:</span>
+                                <span class="value">hjkook@example.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="label">PHONE:</span>
+                                <span class="value">+82 10-1234-5678</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="label">LOCATION:</span>
+                                <span class="value">Seoul, South Korea</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="label">GITHUB:</span>
+                                <span class="value">github.com/hjkook</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <div class="form-window">
+                        <div class="form-header">
+                            <div class="form-buttons">
+                                <span class="btn close"></span>
+                                <span class="btn minimize"></span>
+                                <span class="btn maximize"></span>
+                            </div>
+                            <span class="form-title">Send Message</span>
+                        </div>
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <label for="name">NAME:</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">EMAIL:</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">SUBJECT:</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">MESSAGE:</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">SEND MESSAGE</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 HJ KOOK's Portfolio. All rights reserved. | Built with retro love ❤️</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
